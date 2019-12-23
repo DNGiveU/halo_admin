@@ -1,7 +1,7 @@
 <template>
   <div class="container-wrapper">
     <div class="halo-logo animated fadeInUp">
-      <span>Halo</span>
+      <span>NGiveU</span>
     </div>
     <div class="animated">
       <a-form
@@ -60,13 +60,13 @@
               找回密码
             </a>
           </router-link>
-          <a
-            @click="handleApiModifyModalOpen"
-            class="tip animated fadeInUp"
-            :style="{'animation-delay': '0.4s'}"
-          >
-            API 设置
-          </a>
+<!--          <a-->
+<!--            @click="handleApiModifyModalOpen"-->
+<!--            class="tip animated fadeInUp"-->
+<!--            :style="{'animation-delay': '0.4s'}"-->
+<!--          >-->
+<!--            API 设置-->
+<!--          </a>-->
         </a-row>
 
         <a-modal
